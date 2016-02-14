@@ -29,8 +29,8 @@ python shutdown_daemon_multicommand.py --debug
   <tr>
     <td>shutdown_daemon.py</td>
     <td>Herunterfahren -/ Hochfahren mittels Taster zwischen GPIO3 (Pin5) und GND (Pin6)Eine Videobeschreibung zur 
-    Installation ist zu finden unter: <a href="https://www.youtube.com/watch?v=adlGqnITYlA">YoutubeEine</a>
-    schriftliche Anleitung findet sich 
+    Installation ist zu finden unter: <a href="https://www.youtube.com/watch?v=adlGqnITYlA">Youtube</a>
+    Eine schriftliche Anleitung findet sich 
     unter: <a href="http://my-darling.is-a-linux-user.org/raspberry-pi-mittels-hardware-taster-hoch-und-herunterfahren/">my-darling.is-a-linux-user.org</a> 
     Das Script funktioniert bisher recht zuverlässig, 
     kann allerdings bei größeren Interferenzen an den GPIOs dazu führen, dass der Pin5,heruntergefahren wird, 
