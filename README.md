@@ -50,3 +50,16 @@ python shutdown_daemon_multicommand.py --debug
     Scriptes selbst.Mir persönlich ist das allerdings zu viel "blindes gemorse..." :-)</td>
   </tr>
 </table>
+---
+#Installation:
+1. Kopiere das gewünschte Script auf den Pi, z.B. in das Homeverzeichnis ("/home/pi/shutdown_daemon.py")
+2. Öffne eine rc.local ("sudo nano /etc/rc.local")
+3. Füge ganz unten, jedoch _vor_ exit 0 folgenden Befehl ein:
+```
+/usr/bin/python /home/pi/shutdown_daemon.py &
+```
+4. Speichere die Datei mittels [STRG]+[O], und verlasse den Editormodus mit [STRG]+[X]
+5. Reboote den Pi mittels "sudo reboot"
+
+Nun sollte automatisch beim Start das Script gestartet werden, was ein Herunterfahren mittels Taster ermöglicht. 
+Wenn der Taster an den im Video beschriebenen Pins hängt, kann so auch aus dem heruntergefahrenen Zustand wieder gestartet werden.
