@@ -50,7 +50,9 @@ python shutdown_daemon_multicommand.py --debug
     Scriptes selbst.Mir persönlich ist das allerdings zu viel "blindes gemorse..." :-)</td>
   </tr>
 </table>
+
 ---
+
 # Installation:
 
 1. Kopiere das gewünschte Script auf den Pi, z.B. in das Homeverzeichnis ("/home/pi/shutdown_daemon.py")
