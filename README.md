@@ -1,7 +1,7 @@
-#Video Anleitung zur Installation:
+# Video Anleitung zur Installation:
 [![Youtube-Video](http://img.youtube.com/vi/adlGqnITYlA/0.jpg)](https://www.youtube.com/watch?v=adlGqnITYlA)
 ---
-###WICHTIG: Vor dem ersten Gebrauch, solltet ihr das Script testen! Hierzu habe ich das Argument "--debug" eingefügt.
+### WICHTIG: Vor dem ersten Gebrauch, solltet ihr das Script testen! Hierzu habe ich das Argument "--debug" eingefügt.
 z.B.
 ```
 python shutdown_daemon.py --debug
@@ -15,7 +15,7 @@ oder
 python shutdown_daemon_multicommand.py --debug
 ```
 ---
-#Erklärungen zu den Unterschieden:
+# Erklärungen zu den Unterschieden:
 
 <table style="undefined;table-layout: fixed; width: 864px">
 <colgroup>
@@ -51,7 +51,8 @@ python shutdown_daemon_multicommand.py --debug
   </tr>
 </table>
 ---
-#Installation:
+# Installation:
+
 1. Kopiere das gewünschte Script auf den Pi, z.B. in das Homeverzeichnis ("/home/pi/shutdown_daemon.py")
 2. Öffne eine rc.local ("sudo nano /etc/rc.local")
 3. Füge ganz unten, jedoch _vor_ exit 0 folgenden Befehl ein:
