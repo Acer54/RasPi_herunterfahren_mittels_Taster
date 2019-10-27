@@ -66,3 +66,12 @@ python shutdown_daemon_multicommand.py --debug
 
 Nun sollte automatisch beim Start das Script gestartet werden, was ein Herunterfahren mittels Taster ermöglicht. 
 Wenn der Taster an den im Video beschriebenen Pins hängt, kann so auch aus dem heruntergefahrenen Zustand wieder gestartet werden.
+
+# Alternative Installation mit über Paketmanager
+### 1. Füge eine neue quelle zu deinem system hinzu:
+    wget https://raw.githubusercontent.com/Acer54/repository/master/release/release.key && sudo apt-key add release.key && rm release.key
+    wget "https://raw.githubusercontent.com/Acer54/repository/master/release/acer54_repository.list" && sudo mv acer54_repository.list /etc/apt/sources.list.d/
+### 2. Führe ein Update der Resourcen durch:
+    sudo apt update
+### 3. Installation von shutdown-daemon-py (inteference free):
+    sudo apt install shutdown-daemon-py
